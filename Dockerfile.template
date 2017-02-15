@@ -1,4 +1,4 @@
-FROM wordpress:4-apache
+FROM wordpress:php7.1-apache
 
 ENV BEDROCK_VERSION=%%BEDROCK_VERSION%% \
     BEDROCK_SHA1=%%BEDROCK_SHA1%% \

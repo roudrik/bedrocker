@@ -1,4 +1,4 @@
-FROM wordpress:4-apache
+FROM wordpress:php7.1-apache
 
 ENV BEDROCK_VERSION=1.7.2 \
     BEDROCK_SHA1=3ccd93f0d4cfb818755fd99f79c631a3dd2302d6 \
@@ -86,6 +86,7 @@ VOLUME /app/web/app/uploads
 
 ENTRYPOINT []
 CMD ["apache2-foreground"]
+
 
 RUN set -xe && \
     apt-get -qq update && \

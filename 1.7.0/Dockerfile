@@ -1,4 +1,4 @@
-FROM wordpress:4-apache
+FROM wordpress:php7.1-apache
 
 ENV BEDROCK_VERSION=1.7.0 \
     BEDROCK_SHA1=b32866ea48932a2997b77997487eb92f52623da6 \
