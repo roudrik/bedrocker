@@ -82,7 +82,6 @@ RUN set -xe && \
     mkdir -p /app/web/app/uploads && \
     true
 
-VOLUME /app/web/app/uploads
 
 ENTRYPOINT []
 CMD ["apache2-foreground"]
